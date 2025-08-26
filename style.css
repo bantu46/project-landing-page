@@ -16,6 +16,8 @@ body {
     border: red solid 1px;
 }
 
+/* HERO SECTION */
+
 ul {
    list-style: none;
    display: flex;
@@ -38,7 +40,7 @@ a  {
    display: flex;
    justify-content: space-between;
    margin: 0 150px;
-   /* flex: 1; */
+   /* flex: 1 1 0; */
    /* justify-content: space-around; */
    /* border: blue solid 1px; */
 }
@@ -76,7 +78,6 @@ button {
    margin-top: 15px;
 }
 
-
 .header-rt {
    align-content: center;
 }
@@ -86,9 +87,16 @@ button {
    flex-shrink: none;
 }
 
+/* INFORMATION SECTION */
+
 .information {
    display: flex;
    flex-direction: column;
+}
+
+.info-sub-container {
+   /* align-items: center; */
+   max-width: 163px;
 }
 
 .image-container {
@@ -101,15 +109,16 @@ button {
 
 .info-container {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
    text-align: center;
+   gap: 35px;
+   margin-bottom: 30px;
 }
 
 .information-text {
    margin: 0 auto;
-}
-
-.info-sub-container {
-   /* align-items: center; */
-   max-width: 163px;
+   font-size: 36px;
+   font-weight: 900;
+   color: #1f2937;
+   padding: 20px 0;
 }

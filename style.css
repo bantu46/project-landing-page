@@ -175,3 +175,11 @@ span {
    border:#f9faf8 solid 1px;
    font-weight: 900;
 }
+
+/* FOOTER */
+.footer {
+   background-color: #1f2937;
+   color: #e5e7eb;
+   text-align: center;
+   padding: 30px 0;
+}

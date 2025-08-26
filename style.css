@@ -30,12 +30,16 @@ a  {
    display: flex;
    flex-direction: column;
    background-color: #1f2937;
-   padding: 0 80px;
+   padding-bottom: 80px;
+   padding-top: 50px;
 }
 
 .navigation {
    display: flex;
    justify-content: space-between;
+   margin: 0 150px;
+   /* flex: 1; */
+   /* justify-content: space-around; */
    /* border: blue solid 1px; */
 }
 
@@ -53,17 +57,59 @@ a  {
 .header-logo {
    color: #f9faf8;
    font-size: 24px;
+   font-weight: 900;
 }
 
 .header-content {
    display: flex;
    justify-content: space-between;
+   margin: 0 150px;
+   margin-top: 80px;
 }
 
 button {
    background-color: #3882f6;
    color: #f9faf8;
-   padding: 10px 18px;
+   padding: 10px 25px;
    border-radius: 5px;
-   border-color: #3882f6;
+   border: none;
+   margin-top: 15px;
+}
+
+
+.header-rt {
+   align-content: center;
+}
+
+.hero-text {
+   max-width: 434px;
+   flex-shrink: none;
+}
+
+.information {
+   display: flex;
+   flex-direction: column;
+}
+
+.image-container {
+   border: #3882f6 solid 2px;
+   width: 100px;
+   height: 100px;
+   border-radius: 5px;
+   margin: 0 auto;
+}
+
+.info-container {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+}
+
+.information-text {
+   margin: 0 auto;
+}
+
+.info-sub-container {
+   /* align-items: center; */
+   max-width: 163px;
 }

@@ -76,6 +76,7 @@ button {
    border-radius: 5px;
    border: none;
    margin-top: 15px;
+   font-weight: 900;
 }
 
 .header-rt {
@@ -146,5 +147,31 @@ span {
    /* max-width: 420px; */
    margin: 0 auto;
    padding-left: 575px;
+   font-weight: 900;
+}
+
+/* CALL TO ACTION SECTION */
+.container-cta {
+   border: solid #3882f6 1px;
+   border-radius: 8px;
+   background-color: #3882f6;
+   display: flex;
+   margin: 95px auto;
+   padding: 50px 0;
+   max-width: 1605px;
+   justify-content: space-around;
+}
+
+.lt-call-to-action > p{
+   color: #e5e7eb;
+   font-size: 18px;
+}
+
+.cta-bold {
+   font-weight: 900;
+}
+
+.btn {
+   border:#f9faf8 solid 1px;
    font-weight: 900;
 }
